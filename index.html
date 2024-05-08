@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="TemplateMo">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+  <title>Server Hosting solutions</title>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/templatemo-host-cloud.css">
+  <link rel="stylesheet" href="assets/css/owl.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <style>
+      
+    .navbar-brand img {
+      max-width: 150px; /* Adjust the width of the logo as needed */
+      height: auto; /* Maintain aspect ratio */
+      margin-top: -0.6cm; /* Move the logo up by 0.6 */
+      margin-left: -1.5cm;
+    }
+ 
+   
+ 
+  /* colour for currency dropdown items */
+  .functional-buttons .dropdown-menu .dropdown-item {
+    color: rgb(255, 255, 255) !important;
+  }
+
+  .functional-buttons .dropdown-menu .dropdown-item:hover {
+    background-color: #ffa500 !important;
+    color: #fff !important; /* Change text color to white on hover */
+  }
+
+  /* Adjusting theme colors */
+      /* Yellow */
+      .navbar .nav-item.active .nav-link,
+      .navbar .nav-item:hover .nav-link {
+        color: #ffc107;
+      }
+
+     /* Drop down */
+    .functional-buttons .dropdown-menu {
+      background-color: #797878;
+    }
+    .functional-buttons .dropdown-menu .dropdown-item {
+      color: #f8f5f5;
+    }
+    .header-text {
+      text-align: left;
+    }
+   
+
+    .caption h2 {
+      font-family: 'Balsamiq Sans', cursive; /* Change font family */
+      font-size: 50px; /* Increase font size */
+      margin-left: -20px
+      ;
+    }
+  
+    .uninterrupted-performance {
+      font-size: 30px; /* Font size for 'Uninterrupted Performance' */
+      margin-top: 10px; /* Add margin between 'Reliable Hosting' and 'Uninterrupted Performance' */
+    }
+  
+    .chart-box {
+      background-color: #f9f9f9;
+      padding: 20px;
+      margin-top: 50px;
+      border-radius: 10px;
+      width: 256px; /* Adjust width */
+      height: 52px; /* Adjust height */
+      float: right; /* Align to the right */
+    }
+  
+    .chart-input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  </style>
+  
+</head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="preloader">
+    <div class="jumper">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- Header -->
+  <header class="">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/images/logo.jpg" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Our Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+       
+        <div class="functional-buttons">
+          <ul>
+            <li><a href="#">Help</a></li>
+            <li class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="currencyDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: rgb(19, 19, 19);">
+                Currency
+              </button>
+              <div class="dropdown-menu" aria-labelledby="currencyDropdown">
+                <a class="dropdown-item" href="#" onclick="changeCurrency('USD')">USD - United States Dollar</a>
+                <a class="dropdown-item" href="#" onclick="changeCurrency('EUR')">EUR - Euro</a>
+                <a class="dropdown-item" href="#" onclick="changeCurrency('GBP')">GBP - British Pound Sterling</a>
+                <a class="dropdown-item" href="#" onclick="changeCurrency('JPY')">JPY - Japanese Yen</a>
+                <a class="dropdown-item" href="#" onclick="changeCurrency('GHC')">GHC - Ghana Cedi</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        
+        <script>
+          function changeCurrency(currency) {
+            document.getElementById('currencyDropdown').innerText = currency;
+          }        
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    var header = document.querySelector('header');
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+      header.classList.add('white-header');
+    } else {
+      header.classList.remove('white-header');
+    }
+  }
+        </script>
+        
+    </nav>
+  </header>
+
+  <!-- Page Content -->
+  <!-- Banner Starts Here -->
+  <div class="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <div class="header-text caption">
+            <h2>Reliable Hosting</h2>
+            <h2 class="uninterrupted-performance">Uninterrupted Performance.</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Chart Box -->
+  <div class="container chart-box">
+    <div class="row">
+      <div class="col-md-12">
+        <form>
+          <input type="text" class="form-control chart-input" placeholder="chat here">
+        
+          <!-- Add more input fields as needed -->
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+    <!-- Banner Ends Here -->
+
+    <!-- Services Starts Here -->
+    <div class="services-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              
+              <h2>Services we provide</h2>
+              <p>We specialize in providing reliable server hosting solutions, including both physical and virtual server options, to accommodate various workloads and requirements. Our services encompass hardware infrastructure management, ensuring optimal performance and reliability through state-of-the-art data center facilities and robust networking equipment.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="service-item">
+              <img src="assets/images/Backup.png" alt=""style="width: 110px;">
+              <h4>SSD Drivers</h4>
+              <p>SSD drives provide faster, more reliable, and energy-efficient hosting solutions.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="service-item">
+              <img src="assets/images/security.png" alt=""style="width: 100px;">
+              <h4>Data Security</h4>
+              <p>Encryption, regular backups, firewalls, intrusion detection systems, and compliance with industry standards such as GDPR and PCI DSS, </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="service-item">
+              <img src="assets/images/Faster service .png" alt=""style="width: 100px;">
+              <h4>Faster service</h4>
+              <p>Sustainable, liberal facilitate change movements outcomes Millennium Development Goals.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Services Ends Here -->
+
+
+    <!-- Pricing Starts Here -->
+    <div class="pricing-section">
+      <div class="background-image-pricing">
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <div class="section-heading">
+              <h2>SKYROCKET YOUR BUSINESS:       
+                AFFORDABLE SERVER HOSTING PLANS</h2>
+              <p>Choose  from our reliable flexible hosting plans tailored to your needs.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="pricing-item">
+              <h4>Basic Cloud 5x</h4>
+              <div class="price">
+                <h6>$15.50</h6>
+                <span>monthly</span>
+              </div>
+              <p>Etiam sit amet placerat lacus, sed placerat mauris. Vestibulum malesuada vehicula sapien non tempus.</p>
+              <div class="dev"></div>
+              <ul>
+                <li><i class="fa fa-check"></i>500 GB Storage Space</li>
+                <li><i class="fa fa-check"></i>3 TB Data Transfer</li>
+                <li><i class="fa fa-check"></i>Basic Managed Panel</li>
+                <li><i class="fa fa-check"></i>24/7 Fast Support</li>
+                <li><i class="fa fa-check"></i>100 Premium Themes</li>
+                <li><i class="fa fa-check"></i>Cancel or Upgrade Anytime</li>
+              </ul>
+              <a href="#" class="main-button">Start Plan</a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="pricing-item">
+              <h4>Cloud VPS 10x</h4>
+              <div class="price price-gradient">
+                <h6>$30.00</h6>
+                <span>monthly</span>
+              </div>
+              <p>Etiam sit amet placerat lacus, sed placerat mauris. Vestibulum malesuada vehicula sapien non tempus.</p>
+              <div class="dev"></div>
+              <ul>
+                <li><i class="fa fa-check"></i>1 TB Cloud Space</li>
+                <li><i class="fa fa-check"></i>8 TB Data Transfer</li>
+                <li><i class="fa fa-check"></i>Fully Managed Panel</li>
+                <li><i class="fa fa-check"></i>15-minute Quick Support</li>
+                <li><i class="fa fa-check"></i>Unlimted Web Addons</li>
+                <li><i class="fa fa-check"></i>Cancel or Upgrade Anytime</li>
+              </ul>
+              <a href="#" class="gradient-button">Select Plan</a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="pricing-item">
+              <h4>Advanced Cloud</h4>
+              <div class="price">
+                <h6>$72.25</h6>
+                <span>monthly</span>
+              </div>
+              <p>Etiam sit amet placerat lacus, sed placerat mauris. Vestibulum malesuada vehicula sapien non tempus.</p>
+              <div class="dev"></div>
+              <ul>
+                <li><i class="fa fa-check"></i>4 TB Cloud Space</li>
+                <li><i class="fa fa-check"></i>20 TB Data Transfer</li>
+                <li><i class="fa fa-check"></i>Fully Managed Panel</li>
+                <li><i class="fa fa-check"></i>15-minute Quick Support</li>
+                <li><i class="fa fa-check"></i>Top Notch Web Apps</li>
+                <li><i class="fa fa-check"></i>Advanced Scalable</li>
+              </ul>
+              <a href="#" class="main-button">Take it now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Pricing Ends Here -->
+
+
+    <!-- Features Starts Here -->
+    <div class="features-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <span>Best Quality for you</span>
+              <h2>Hosting Solutions</h2>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="feature-item">
+              <div class="icon">
+                <img src="assets/images/feature-01.png" alt="">
+              </div>
+              <h4>Load Balanced</h4>
+              <p>Nulla nisl ex, vehicula in urna nec, commodo consectetur augue. Vivamus nec metus mauris. Praesent lacinia tempus urna.</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="feature-item">
+              <div class="icon">
+                <img src="assets/images/feature-01.png" alt="">
+              </div>
+              <h4>99.9% Uptime Guaranteed</h4>
+              <p>Lorem ipsum dolor ame taxidermy sriracha cardigan salvia actually vice migas en pin sustainable carry scenester.</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="feature-item">
+              <div class="icon">
+                <img src="assets/images/feature-01.png" alt="">
+              </div>
+              <h4>Top Reliability</h4>
+              <p>Lorem ipsum dolor ame taxidermy sriracha cardigan salvia actually vice migas en pin sustainable carry scenester.</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="feature-item">
+              <div class="icon">
+                <img src="assets/images/feature-01.png" alt="">
+              </div>
+              <h4>High Security</h4>
+              <p>Lorem ipsum dolor ame taxidermy sriracha cardigan salvia actually vice migas en pin sustainable carry scenester.</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="feature-item">
+              <div class="icon">
+                <img src="assets/images/feature-01.png" alt="">
+              </div>
+              <h4>Quality Hardwares</h4>
+              <p>Lorem ipsum dolor ame taxidermy sriracha cardigan salvia actually vice migas en pin sustainable carry scenester.</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="feature-item">
+              <div class="icon">
+                <img src="assets/images/feature-01.png" alt="">
+              </div>
+              <h4>Network Solutions</h4>
+              <p>Lorem ipsum dolor ame taxidermy sriracha cardigan salvia actually vice migas en pin sustainable carry scenester.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Features Ends Here -->
+
+
+    <!-- Testimonials Starts Here -->
+    <div class="testimonials-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <span>Testimonials</span>
+              <h2>What they say about us</h2>
+            </div>
+          </div>
+          <div class="col-md-10 offset-md-1">
+            <div class="owl-testimonials owl-carousel">
+              <div class="testimonial-item">
+                <div class="icon">
+                  <i class="fa fa-quote-right"></i>
+                </div>
+                <p>"From the moment I switched to Server Hosting Solutions, I've witnessed unparalleled reliability and exceptional customer service. Their servers aren't just fast and secure; they're also scalable, seamlessly adapting to the evolving needs of my business. "</p>
+                <h4>William Smith</h4>
+                <span>New Co-Founder</span>
+              </div>
+              <div class="testimonial-item">
+                <div class="icon">
+                  <i class="fa fa-quote-right"></i>
+                </div>
+                <p>"Server Hosting Solutions consistently goes above and beyond to ensure smooth operations. I wholeheartedly recommend them to anyone in search of top-notch server hosting services."</p>
+                <h4>Vinny Smart</h4>
+                <span>Digital Marketer</span>
+              </div>
+              <div class="testimonial-item">
+                <div class="icon">
+                  <i class="fa fa-quote-right"></i>
+                </div>
+                <p>"I've been with Server Hosting Solutions for a while now, and they continue to exceed my expectations. Their servers are lightning-fast, and I've never experienced any downtime. Whenever I've needed assistance, their support team has been there, day or night, resolving issues promptly and professionally. "</p>
+                <h4>Trevor Liam</h4>
+                <span>Technology Chef</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Testimonials Ends Here -->
+    
+
+ <!-- Footer Starts Here -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="footer-item">
+          <div class="footer-heading">
+            <h2>About Us</h2>
+          </div>
+          <p>
+            Server hosting solutions provides infrastructure and services for hosting websites and applications online. We manage servers, data centers, and network infrastructure, ensuring reliability, security, and scalability. Additionally, we offer technical support, handle backups, and manage billing, aiming to provide reliable and secure hosting solutions to businesses and individuals.</p>
+        </div>
+      </div>
+      
+      <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="footer-item">
+          <div class="footer-heading">
+            <h2>Hosting Plans</h2>
+          </div>
+          <ul class="footer-list">
+            <li><a href="#">Basic Cloud 5X</a></li>
+            <li><a href="#">Cloud VPS 10X</a></li>
+            <li><a href="#">Advanced Cloud</a></li>
+            <li><a href="#">Custom Designs</a></li>
+            <li><a href="#">Special Solutions</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      
+      <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="footer-item">
+          <div class="footer-heading">
+            <h2>Useful Links</h2>
+          </div>
+          <ul class="footer-list">
+            <li><a href="#">Cloud Hosting Platform</a></li>
+            <li><a href="#">Light Speed Zone</a></li>
+            <li><a href="#">Content Delivery Network</a></li>
+            <li><a href="#">Customer Support</a></li>
+            <li><a href="#">Latest News</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="footer-item">
+          <div class="footer-heading">
+            <h2>More Information</h2>
+          </div>
+          <ul class="footer-list">
+            <li>Phone: <a href="#">+233-30-254-6537</a></li>
+            <li>Email: <a href="#">info@serverhostingldt.com</a></li>
+            <li>Location: <a href="#">3 date st, East Legon </a></li>
+            <li>Social Media:
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-whatsapp"></i></a>
+              <!-- Add more social media icons as needed -->
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+           <div class="col-md-12">
+        <div class="sub-footer">
+          <p>Copyright &copy; 2024 Server Hosting solutions. All rights reserved. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Footer Ends Here -->
+
+
+
+<script>
+  // JavaScript to handle the admin access button
+  document.getElementById("admin-access").addEventListener("click", function() {
+    document.getElementById("admin-access-modal").style.display = "block";
+  });
+
+  // Close the modal when the close button is clicked
+  document.getElementsByClassName("close")[0].addEventListener("click", function() {
+    document.getElementById("admin-access-modal").style.display = "none";
+  });
+
+  // Close the modal when clicking outside of it
+  window.addEventListener("click", function(event) {
+    if (event.target == document.getElementById("admin-access-modal")) {
+      document.getElementById("admin-access-modal").style.display = "none";
+    }
+  });
+</script>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Additional Scripts -->
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/accordions.js"></script>
+
+
+    <script language = "text/Javascript"> 
+      cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+      function clearField(t){                   //declaring the array outside of the
+      if(! cleared[t.id]){                      // function makes it static and global
+          cleared[t.id] = 1;  // you could use true and false, but that's more typing
+          t.value='';         // with more chance of typos
+          t.style.color='#fff';
+          }
+      }
+    </script>
+
+  </body>
+</html>
